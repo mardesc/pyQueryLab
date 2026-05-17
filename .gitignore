@@ -1,0 +1,26 @@
+# .venv : environnement virtuel local (dépendances du projet)
+.venv/
+
+# __pycache__ : cache automatique des modules Python importés
+__pycache__/
+
+# *.pyc : bytecode compilé automatiquement par Python (Python 3)
+*.pyc
+
+# *.pyo : ancienne optimisation Python (Python 2 / mode optimisé legacy)
+*.pyo
+
+# *.pyd : extensions compilées Windows (équivalent .dll pour Python)
+*.pyd
+
+# dist/ : dossier généré par PyInstaller (exécutable final)
+dist/
+
+# build/ : fichiers temporaires de compilation PyInstaller
+build/
+
+# *.spec : fichier de configuration PyInstaller (peut être régénéré)
+*.spec
+
+# VSCode : paramètres locaux spécifiques à la machine
+.vscode/
