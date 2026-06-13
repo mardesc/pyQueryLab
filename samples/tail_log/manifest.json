@@ -1,0 +1,13 @@
+{
+    "format": "pyQueryLab",
+    "version": 1,
+
+    "document": {
+        "type": "python",
+        "entrypoint": "scripts/main.py"
+    },
+
+    "output": {
+        "format": "text"
+    }
+}
